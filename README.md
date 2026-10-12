@@ -1,6 +1,8 @@
-<!-- Header -->
+<!-- Artwork in ./assets is generated in the portfolio's own fonts and colours (Instrument Serif, Manrope, #020617 / #22d3ee / #d6b56d). -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:020617,55:0e7490,100:22d3ee&height=210&section=header&text=Sheikh%20Mujtaba&fontSize=58&fontColor=f8fafc&fontAlignY=36&desc=AI%20Security%20Engineer%20%E2%80%A2%20AI%20Developer&descSize=20&descAlignY=58&animation=fadeIn" alt="Sheikh Mujtaba (Mujtaba Javed) - AI Security Engineer and AI Developer" width="100%" />
+  <a href="https://sheikhmujtaba.me">
+    <img src="./assets/hero.svg" alt="Sheikh Mujtaba (Mujtaba Javed) - I build secure AI systems. AI Security Engineer and AI Developer." width="100%" />
+  </a>
 </p>
 
 <p align="center">
@@ -10,16 +12,19 @@
 </p>
 
 <p align="center">
-  <a href="https://sheikhmujtaba.me"><img src="https://img.shields.io/badge/Portfolio-sheikhmujtaba.me-22d3ee?style=for-the-badge&logo=googlechrome&logoColor=020617&labelColor=0f172a" alt="Portfolio" /></a>
-  <a href="https://sheikhmujtaba.me/blog"><img src="https://img.shields.io/badge/Blog-AI%20Security%20Notes-d6b56d?style=for-the-badge&logo=rss&logoColor=020617&labelColor=0f172a" alt="Blog" /></a>
-  <a href="https://www.linkedin.com/in/sheikh-m-mujtaba-javed-0362872b9/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="https://x.com/Mujtaba_Javed_"><img src="https://img.shields.io/badge/X-@Mujtaba__Javed__-000000?style=for-the-badge&logo=x&logoColor=white" alt="X" /></a>
-  <a href="https://medium.com/@smujtabaja"><img src="https://img.shields.io/badge/Medium-000000?style=for-the-badge&logo=medium&logoColor=white" alt="Medium" /></a>
-  <a href="https://discord.gg/mr_ano"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="mailto:smujtabaja@gmail.com"><img src="https://img.shields.io/badge/Email-smujtabaja%40gmail.com-ea4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="https://sheikhmujtaba.me"><img src="./assets/btn-portfolio.svg" alt="View Portfolio" height="46" /></a>
+  <a href="https://sheikhmujtaba.me/blog"><img src="./assets/btn-blog.svg" alt="Read the Blog" height="46" /></a>
+  <a href="https://www.linkedin.com/in/sheikh-m-mujtaba-javed-0362872b9/"><img src="./assets/btn-linkedin.svg" alt="LinkedIn" height="46" /></a>
+  <a href="https://x.com/Mujtaba_Javed_"><img src="./assets/btn-x.svg" alt="X / Twitter" height="46" /></a>
+  <a href="mailto:smujtabaja@gmail.com"><img src="./assets/btn-email.svg" alt="Email Me" height="46" /></a>
+</p>
+<p align="center">
+  <a href="https://medium.com/@smujtabaja"><img src="https://img.shields.io/badge/Medium-0f172a?style=flat-square&logo=medium&logoColor=22d3ee" alt="Medium" /></a>
+  <a href="https://discord.gg/mr_ano"><img src="https://img.shields.io/badge/Discord-0f172a?style=flat-square&logo=discord&logoColor=22d3ee" alt="Discord" /></a>
+  <a href="https://sheikhmujtaba.me/rss.xml"><img src="https://img.shields.io/badge/RSS-0f172a?style=flat-square&logo=rss&logoColor=22d3ee" alt="RSS" /></a>
 </p>
 
----
+<img src="./assets/heading-about.svg" alt="Who I am: whoami" width="100%" />
 
 ```console
 mujtaba@sec-ops:~$ whoami
@@ -36,61 +41,61 @@ mujtaba@sec-ops:~$ cat status.txt
 >> available for remote AI security + AI development work  ::  based in Pakistan (UTC+5)
 ```
 
-## 🛡️ Featured work
+<img src="./assets/heading-work.svg" alt="Featured work" width="100%" />
 
 <table>
   <tr>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/Sheikh-Muhammad-Mujtaba/ErpNextGuard">NextGuard</a></h3>
       <p>Backend hardening for Frappe / ERPNext. Blocks malicious <b>Server Scripts</b> at save-time and execution-time.</p>
-      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-      <img src="https://img.shields.io/badge/Frappe-0089FF?style=flat-square&logo=frappe&logoColor=white" alt="Frappe" />
-      <img src="https://img.shields.io/badge/Security-22d3ee?style=flat-square&logo=owasp&logoColor=020617" alt="Security" />
+      <img src="https://img.shields.io/badge/Python-0f172a?style=flat-square&logo=python&logoColor=22d3ee" alt="Python" />
+      <img src="https://img.shields.io/badge/Frappe-0f172a?style=flat-square&logo=frappe&logoColor=22d3ee" alt="Frappe" />
+      <img src="https://img.shields.io/badge/Security-0f172a?style=flat-square&logo=owasp&logoColor=22d3ee" alt="Security" />
     </td>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/Sheikh-Muhammad-Mujtaba/ERP_Next-MCP">ERPNext MCP Server</a></h3>
       <p>Model Context Protocol server giving LLM agents doctype-agnostic ERPNext access, gated by <b>permission controls</b> and <b>audit logging</b>.</p>
-      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-      <img src="https://img.shields.io/badge/MCP-0f172a?style=flat-square&logo=anthropic&logoColor=white" alt="MCP" />
-      <img src="https://img.shields.io/badge/ERPNext-0089FF?style=flat-square&logo=frappe&logoColor=white" alt="ERPNext" />
+      <img src="https://img.shields.io/badge/Python-0f172a?style=flat-square&logo=python&logoColor=22d3ee" alt="Python" />
+      <img src="https://img.shields.io/badge/MCP-0f172a?style=flat-square&logo=anthropic&logoColor=22d3ee" alt="MCP" />
+      <img src="https://img.shields.io/badge/ERPNext-0f172a?style=flat-square&logo=frappe&logoColor=22d3ee" alt="ERPNext" />
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/Sheikh-Muhammad-Mujtaba/AI-Employee-Digital-FTE">AI Employee (Digital FTE)</a></h3>
       <p>An autonomous AI employee powered by Claude Code, Playwright and ERPNext, with human-in-the-loop approvals.</p>
-      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-      <img src="https://img.shields.io/badge/Claude-D97757?style=flat-square&logo=claude&logoColor=white" alt="Claude" />
-      <img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white" alt="Playwright" />
+      <img src="https://img.shields.io/badge/Python-0f172a?style=flat-square&logo=python&logoColor=22d3ee" alt="Python" />
+      <img src="https://img.shields.io/badge/Claude-0f172a?style=flat-square&logo=claude&logoColor=22d3ee" alt="Claude" />
+      <img src="https://img.shields.io/badge/Playwright-0f172a?style=flat-square&logo=playwright&logoColor=22d3ee" alt="Playwright" />
     </td>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/Sheikh-Muhammad-Mujtaba/CRM-Digital-FTE">CRM Digital FTE</a></h3>
       <p>Enterprise-grade AI customer-success platform using Gemini 2.5 Flash and the OpenAI Agents SDK for autonomous multi-channel support, with human-in-the-loop escalation.</p>
-      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-      <img src="https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white" alt="Gemini" />
-      <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
+      <img src="https://img.shields.io/badge/Python-0f172a?style=flat-square&logo=python&logoColor=22d3ee" alt="Python" />
+      <img src="https://img.shields.io/badge/Gemini-0f172a?style=flat-square&logo=googlegemini&logoColor=22d3ee" alt="Gemini" />
+      <img src="https://img.shields.io/badge/FastAPI-0f172a?style=flat-square&logo=fastapi&logoColor=22d3ee" alt="FastAPI" />
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/Sheikh-Muhammad-Mujtaba/Physical-AI-Humanoid-Robotics-Textbook">Physical AI Textbook + RAG</a></h3>
       <p>Hackathon build: a Physical AI &amp; Humanoid Robotics textbook with a RAG chatbot backed by FastAPI and Qdrant.</p>
-      <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
-      <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
-      <img src="https://img.shields.io/badge/RAG-d6b56d?style=flat-square&logo=openai&logoColor=020617" alt="RAG" />
+      <img src="https://img.shields.io/badge/TypeScript-0f172a?style=flat-square&logo=typescript&logoColor=22d3ee" alt="TypeScript" />
+      <img src="https://img.shields.io/badge/FastAPI-0f172a?style=flat-square&logo=fastapi&logoColor=22d3ee" alt="FastAPI" />
+      <img src="https://img.shields.io/badge/RAG-0f172a?style=flat-square&logo=openai&logoColor=22d3ee" alt="RAG" />
     </td>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/Sheikh-Muhammad-Mujtaba/SecuScan">SecuScan</a></h3>
       <p>Website security analyser: SSL certificate checks, security-header checks, Shodan exposure analysis and WHOIS lookups.</p>
-      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-      <img src="https://img.shields.io/badge/AppSec-22d3ee?style=flat-square&logo=owasp&logoColor=020617" alt="AppSec" />
+      <img src="https://img.shields.io/badge/Python-0f172a?style=flat-square&logo=python&logoColor=22d3ee" alt="Python" />
+      <img src="https://img.shields.io/badge/AppSec-0f172a?style=flat-square&logo=owasp&logoColor=22d3ee" alt="AppSec" />
     </td>
   </tr>
 </table>
 
 <p align="center"><a href="https://sheikhmujtaba.me/#projects"><b>See every shipped build on the portfolio &rarr;</b></a></p>
 
-## ✍️ Latest from the blog
+<img src="./assets/heading-blog.svg" alt="From the blog" width="100%" />
 
 <!-- Updated daily by .github/workflows/blog-posts.yml from https://sheikhmujtaba.me/rss.xml -->
 <!-- BLOG-POST-LIST:START -->
@@ -101,7 +106,7 @@ mujtaba@sec-ops:~$ cat status.txt
 - [MCP Security: How to Secure Model Context Protocol Servers](https://sheikhmujtaba.me/blog/mcp-security)
 <!-- BLOG-POST-LIST:END -->
 
-## 🧰 Arsenal
+<img src="./assets/heading-arsenal.svg" alt="Arsenal" width="100%" />
 
 <p align="center">
   <b>Build</b><br/><br/>
@@ -110,30 +115,30 @@ mujtaba@sec-ops:~$ cat status.txt
 
 <p align="center">
   <b>AI</b><br/><br/>
-  <img src="https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=claude&logoColor=white" alt="Claude" />
-  <img src="https://img.shields.io/badge/OpenAI%20Agents%20SDK-412991?style=for-the-badge&logo=openai&logoColor=white" alt="OpenAI Agents SDK" />
-  <img src="https://img.shields.io/badge/Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white" alt="Gemini" />
-  <img src="https://img.shields.io/badge/MCP-0f172a?style=for-the-badge&logo=anthropic&logoColor=white" alt="Model Context Protocol" />
-  <img src="https://img.shields.io/badge/Qdrant-DC244C?style=for-the-badge&logoColor=white" alt="Qdrant" />
-  <img src="https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white" alt="n8n" />
-  <img src="https://img.shields.io/badge/ERPNext%20%2F%20Frappe-0089FF?style=for-the-badge&logo=frappe&logoColor=white" alt="ERPNext / Frappe" />
+  <img src="https://img.shields.io/badge/Claude-0b1222?style=for-the-badge&logo=claude&logoColor=22d3ee" alt="Claude" />
+  <img src="https://img.shields.io/badge/OpenAI%20Agents%20SDK-0b1222?style=for-the-badge&logo=openai&logoColor=22d3ee" alt="OpenAI Agents SDK" />
+  <img src="https://img.shields.io/badge/Gemini-0b1222?style=for-the-badge&logo=googlegemini&logoColor=22d3ee" alt="Gemini" />
+  <img src="https://img.shields.io/badge/MCP-0b1222?style=for-the-badge&logo=anthropic&logoColor=22d3ee" alt="Model Context Protocol" />
+  <img src="https://img.shields.io/badge/Qdrant-0b1222?style=for-the-badge" alt="Qdrant" />
+  <img src="https://img.shields.io/badge/n8n-0b1222?style=for-the-badge&logo=n8n&logoColor=22d3ee" alt="n8n" />
+  <img src="https://img.shields.io/badge/ERPNext%20%2F%20Frappe-0b1222?style=for-the-badge&logo=frappe&logoColor=22d3ee" alt="ERPNext / Frappe" />
 </p>
 
 <p align="center">
   <b>Offensive &amp; defensive security</b><br/><br/>
   <img src="https://skillicons.dev/icons?i=kali,linux,bash,git&perline=4" alt="Kali Linux, Linux, Bash, Git" /><br/><br/>
-  <img src="https://img.shields.io/badge/Burp%20Suite-FF6633?style=for-the-badge&logo=burpsuite&logoColor=white" alt="Burp Suite" />
-  <img src="https://img.shields.io/badge/Metasploit-2596CD?style=for-the-badge&logo=metasploit&logoColor=white" alt="Metasploit" />
-  <img src="https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white" alt="Wireshark" />
-  <img src="https://img.shields.io/badge/OWASP-000000?style=for-the-badge&logo=owasp&logoColor=white" alt="OWASP" />
-  <img src="https://img.shields.io/badge/TryHackMe-212C42?style=for-the-badge&logo=tryhackme&logoColor=white" alt="TryHackMe" />
-  <img src="https://img.shields.io/badge/Hack%20The%20Box-111927?style=for-the-badge&logo=hackthebox&logoColor=9FEF00" alt="Hack The Box" />
+  <img src="https://img.shields.io/badge/Burp%20Suite-0b1222?style=for-the-badge&logo=burpsuite&logoColor=22d3ee" alt="Burp Suite" />
+  <img src="https://img.shields.io/badge/Metasploit-0b1222?style=for-the-badge&logo=metasploit&logoColor=22d3ee" alt="Metasploit" />
+  <img src="https://img.shields.io/badge/Wireshark-0b1222?style=for-the-badge&logo=wireshark&logoColor=22d3ee" alt="Wireshark" />
+  <img src="https://img.shields.io/badge/OWASP-0b1222?style=for-the-badge&logo=owasp&logoColor=22d3ee" alt="OWASP" />
+  <img src="https://img.shields.io/badge/TryHackMe-0b1222?style=for-the-badge&logo=tryhackme&logoColor=22d3ee" alt="TryHackMe" />
+  <img src="https://img.shields.io/badge/Hack%20The%20Box-0b1222?style=for-the-badge&logo=hackthebox&logoColor=22d3ee" alt="Hack The Box" />
 </p>
 
-## 📊 Telemetry
+<img src="./assets/heading-telemetry.svg" alt="GitHub telemetry" width="100%" />
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Sheikh-Muhammad-Mujtaba&show_icons=true&include_all_commits=true&count_private=true&bg_color=020617&title_color=22d3ee&text_color=a8b6c8&icon_color=d6b56d&border_color=1e293b&border_radius=12" alt="GitHub stats" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Sheikh-Muhammad-Mujtaba&show_icons=true&bg_color=020617&title_color=22d3ee&text_color=a8b6c8&icon_color=d6b56d&border_color=1e293b&border_radius=12" alt="GitHub stats" />
   <img height="170" src="https://streak-stats.demolab.com/?user=Sheikh-Muhammad-Mujtaba&background=020617&border=1E293B&stroke=1E293B&ring=22D3EE&fire=D6B56D&currStreakNum=F8FAFC&currStreakLabel=22D3EE&sideNums=F8FAFC&sideLabels=A8B6C8&dates=77879E&border_radius=12" alt="GitHub streak" />
 </p>
 <p align="center">
@@ -149,14 +154,10 @@ mujtaba@sec-ops:~$ cat status.txt
   </picture>
 </p>
 
----
-
-<p align="center">
-  <i>Only test what you are authorised to test. Break things responsibly, fix them properly.</i>
-</p>
-
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=Sheikh-Muhammad-Mujtaba&label=profile%20views&color=22d3ee&style=flat-square" alt="Profile views" />
 </p>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:22d3ee,45:0e7490,100:020617&height=110&section=footer" alt="" width="100%" />
+<p align="center">
+  <a href="https://sheikhmujtaba.me"><img src="./assets/footer.svg" alt="Let's build something secure. Only test what you are authorised to test." width="100%" /></a>
+</p>
