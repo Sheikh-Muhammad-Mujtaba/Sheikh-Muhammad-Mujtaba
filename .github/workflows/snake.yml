@@ -29,8 +29,13 @@ jobs:
       - name: Publish to the output branch
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        # snk runs in a Docker container, so dist/ is owned by root and the
+        # runner user cannot `git init` inside it. Publish from a copy instead.
         run: |
-          cd dist
+          out="$RUNNER_TEMP/snake-output"
+          mkdir -p "$out"
+          cp dist/*.svg "$out/"
+          cd "$out"
           git init -q -b output
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
