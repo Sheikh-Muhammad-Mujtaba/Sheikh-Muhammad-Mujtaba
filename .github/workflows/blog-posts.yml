@@ -1,0 +1,28 @@
+name: Latest blog posts
+
+# Refreshes the "Latest from the blog" list in README.md from the
+# portfolio's RSS feed (and Medium). Needs Settings > Actions > General >
+# Workflow permissions set to "Read and write permissions".
+on:
+  schedule:
+    - cron: "0 3 * * *" # daily, 08:00 PKT
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Pull in latest posts
+        uses: gautamkrishnar/blog-post-workflow@v1
+        with:
+          feed_list: "https://sheikhmujtaba.me/rss.xml,https://medium.com/feed/@smujtabaja"
+          max_post_count: 5
+          template: "- [$title]($url)$newline"
+          commit_message: "chore: refresh latest blog posts"
+          committer_username: "github-actions[bot]"
+          committer_email: "41898282+github-actions[bot]@users.noreply.github.com"
