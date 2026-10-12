@@ -16,10 +16,10 @@
   <a href="https://sheikhmujtaba.me/blog"><img src="./assets/btn-blog.svg" alt="Read the Blog" height="46" /></a>
   <a href="https://www.linkedin.com/in/sheikh-m-mujtaba-javed-0362872b9/"><img src="./assets/btn-linkedin.svg" alt="LinkedIn" height="46" /></a>
   <a href="https://x.com/Mujtaba_Javed_"><img src="./assets/btn-x.svg" alt="X / Twitter" height="46" /></a>
+  <a href="https://medium.com/@smujtabaja"><img src="./assets/btn-medium.svg" alt="Medium" height="46" /></a>
   <a href="mailto:smujtabaja@gmail.com"><img src="./assets/btn-email.svg" alt="Email Me" height="46" /></a>
 </p>
 <p align="center">
-  <a href="https://medium.com/@smujtabaja"><img src="https://img.shields.io/badge/Medium-0f172a?style=flat-square&logo=medium&logoColor=22d3ee" alt="Medium" /></a>
   <a href="https://discord.gg/mr_ano"><img src="https://img.shields.io/badge/Discord-0f172a?style=flat-square&logo=discord&logoColor=22d3ee" alt="Discord" /></a>
   <a href="https://sheikhmujtaba.me/rss.xml"><img src="https://img.shields.io/badge/RSS-0f172a?style=flat-square&logo=rss&logoColor=22d3ee" alt="RSS" /></a>
 </p>

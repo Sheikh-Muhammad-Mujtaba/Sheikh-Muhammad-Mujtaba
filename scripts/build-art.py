@@ -298,6 +298,7 @@ for slug, label, primary in [
     ("blog", "Read the Blog", False),
     ("linkedin", "LinkedIn", False),
     ("x", "X / Twitter", False),
+    ("medium", "Medium", False),
     ("email", "Email Me", False),
 ]:
     button(slug, label, primary)
