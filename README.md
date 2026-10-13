@@ -14,7 +14,7 @@
 <p align="center">
   <a href="https://sheikhmujtaba.me"><img src="./assets/btn-portfolio.svg" alt="View Portfolio" height="46" /></a>
   <a href="https://sheikhmujtaba.me/blog"><img src="./assets/btn-blog.svg" alt="Read the Blog" height="46" /></a>
-  <a href="https://www.linkedin.com/in/sheikh-m-mujtaba-javed-0362872b9/"><img src="./assets/btn-linkedin.svg" alt="LinkedIn" height="46" /></a>
+  <a href="https://www.linkedin.com/in/sheikhmujtaba/"><img src="./assets/btn-linkedin.svg" alt="LinkedIn" height="46" /></a>
   <a href="https://x.com/Mujtaba_Javed_"><img src="./assets/btn-x.svg" alt="X / Twitter" height="46" /></a>
   <a href="https://medium.com/@smujtabaja"><img src="./assets/btn-medium.svg" alt="Medium" height="46" /></a>
   <a href="mailto:smujtabaja@gmail.com"><img src="./assets/btn-email.svg" alt="Email Me" height="46" /></a>
