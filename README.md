@@ -98,7 +98,9 @@ mujtaba@sec-ops:~$ cat status.txt
 <img src="./assets/heading-blog.svg" alt="From the blog" width="100%" />
 
 <!-- Updated daily by .github/workflows/blog-posts.yml from https://sheikhmujtaba.me/rss.xml -->
-<!-- BLOG-POST-LIST:START -->- [Broken Access Control in a Cloud API: How One Missing Check Leaked a Secret &lpar;CTF Walkthrough&rpar;](https://medium.com/@smujtabaja/broken-access-control-in-a-cloud-api-how-one-missing-check-leaked-a-secret-ctf-walkthrough-44b007c4a629?source=rss-d2a7e3027df8------2)
+<!-- BLOG-POST-LIST:START -->
+
+- [Broken Access Control in a Cloud API: How One Missing Check Leaked a Secret &lpar;CTF Walkthrough&rpar;](https://medium.com/@smujtabaja/broken-access-control-in-a-cloud-api-how-one-missing-check-leaked-a-secret-ctf-walkthrough-44b007c4a629?source=rss-d2a7e3027df8------2)
 - [What Is an AI Security Engineer? Role &amp; Skills &lpar;2026&rpar;](https://sheikhmujtaba.me/blog/ai-security-engineer)
 - [Prompt Injection Attacks: How They Work and How to Defend](https://sheikhmujtaba.me/blog/prompt-injection)
 - [OWASP Top 10 for LLM Applications &lpar;2025&rpar;, Explained](https://sheikhmujtaba.me/blog/owasp-top-10-for-llm-applications)
